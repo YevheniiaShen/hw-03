@@ -28,7 +28,25 @@
   list-style: none;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+
+img{
+  display: block;
+}
 /* Header */
 
 .header {
@@ -92,6 +110,8 @@ body {
 
 .solution {
   background-color: var(--navy-blue-color);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .heading {
@@ -114,6 +134,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
 }
 
 .button-one:hover,
