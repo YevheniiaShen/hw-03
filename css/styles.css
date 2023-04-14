@@ -19,16 +19,15 @@
 }
 
 /* Reset - скидання */
-.link{
+.link {
   color: currentColor;
   text-decoration: none;
-  
 }
-.list{
+.list {
   list-style: none;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -40,17 +39,28 @@ h3,
 h4,
 h5,
 h6,
-p{
+p {
   margin: 0;
 }
 
-img{
+img {
   display: block;
 }
 /* Header */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+nav {
+  display: flex;
 }
 
 .colored-studio {
@@ -81,7 +91,7 @@ img{
   color: var(--ocean-color);
 }
 
-address{
+address {
   font-style: normal;
 }
 .contact-list {
@@ -90,7 +100,6 @@ address{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  
 }
 
 .contact-list:hover,
@@ -165,12 +174,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-color);
- }
+}
 
- .pictures {
+.pictures {
   border: 1px solid #e7e9fc;
 }
- .team {
+.team {
   background-color: var(--cloud-color);
 }
 
@@ -193,7 +202,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--cloud-color);
 }
-
 
 /* Portfolio */
 
@@ -227,8 +235,3 @@ body {
   color: white;
   letter-spacing: 0.04em;
 }
-
-
-
-
-
