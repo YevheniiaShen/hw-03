@@ -113,14 +113,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
- display: flex;
- margin-right: 40px;
+ 
 }
  .contact-ul{
   display: flex;
-  margin-left: 332px;
-  padding-top: 24px; 
-  padding-bottom: 24px;
+  gap: 40px;
  }
 
 .contact-list:hover,
