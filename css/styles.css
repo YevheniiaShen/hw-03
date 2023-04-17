@@ -25,6 +25,8 @@
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
@@ -52,15 +54,17 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header-box {
   display: flex;
   align-items: center;
   width: 1158px;
   padding: 0 15px;
+ 
 }
 
 nav {
   display: flex;
+  align-items: center;
 }
 
 .colored-studio {
@@ -75,6 +79,14 @@ nav {
   letter-spacing: 0.03em;
   color: var(--iris-color);
   text-transform: uppercase;
+  margin-right: 76px;
+  
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+
 }
 
 .pages {
@@ -84,6 +96,7 @@ nav {
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   text-decoration: none;
+  margin-right: 40px;
 }
 
 .pages:hover,
@@ -100,7 +113,15 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+ display: flex;
+ margin-right: 40px;
 }
+ .contact-ul{
+  display: flex;
+  margin-left: 332px;
+  padding-top: 24px; 
+  padding-bottom: 24px;
+ }
 
 .contact-list:hover,
 .contact-list:focus {
@@ -121,6 +142,7 @@ body {
   background-color: var(--navy-blue-color);
   margin: 0 auto;
   text-align: center;
+  padding: 188px 0;
 }
 
 .heading {
@@ -130,20 +152,28 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: white;
+  max-width: 496px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-one {
-  color: white;
   background-color: var(--iris-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding: 16px 32px;
+  letter-spacing: 0.04em ;
+  color: var(--white-color);
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5; 
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-one:hover,
@@ -234,4 +264,14 @@ body {
   background-color: var(--ocean-color);
   color: white;
   letter-spacing: 0.04em;
+}
+ 
+/* Containers */
+
+.container{
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
