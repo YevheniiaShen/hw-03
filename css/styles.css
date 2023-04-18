@@ -65,6 +65,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .colored-studio {
