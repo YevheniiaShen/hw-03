@@ -25,13 +25,9 @@
 }
 .list {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -87,8 +83,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .pages {
@@ -98,9 +92,6 @@ nav {
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   text-decoration: none;
-  margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .pages:hover,
@@ -110,6 +101,7 @@ nav {
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 .contact-list {
   font-weight: 500;
