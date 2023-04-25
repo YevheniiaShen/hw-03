@@ -105,9 +105,7 @@ img {
 }
 
 .foot-logo{
-  margin-bottom: 16px;
-  display: inline-block;
-
+ display: inline-block;
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -115,6 +113,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
+  margin-bottom: 16px;
 }
 
 .header-nav {
