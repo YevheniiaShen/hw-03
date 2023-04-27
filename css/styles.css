@@ -217,7 +217,7 @@ body {
   gap: 24px;
 }
 
-.lists {
+.studio-list {
   width: calc((100%-72px) / 4);
 }
 .title-list {
