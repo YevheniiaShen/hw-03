@@ -47,8 +47,6 @@ img {
   display: block;
 }
 
-
-
 /* Containers */
 
 .container {
@@ -81,6 +79,7 @@ img {
 }
 
 .header-box {
+  display: flex;
   margin: auto;
 }
 
@@ -101,11 +100,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--iris-color);
   text-transform: uppercase;
-
 }
 
-.foot-logo{
- display: inline-block;
+.foot-logo {
+  display: inline-block;
+
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
@@ -122,7 +121,6 @@ img {
   padding: 24px 0;
 }
 
-
 nav .pages:not(:last-child) {
   margin-right: 40px;
 }
@@ -136,7 +134,6 @@ nav .pages:not(:last-child) {
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   text-decoration: none;
-  
 }
 
 .pages:hover,
@@ -158,7 +155,7 @@ address {
 }
 .contact-ul {
   display: flex;
- 
+  padding: 24px 0;
 }
 
 .contact-list:hover,
@@ -176,7 +173,6 @@ body {
   background-color: #ffffff;
 }
 
-
 .heading {
   font-weight: 700;
   font-size: 56px;
@@ -191,7 +187,7 @@ body {
 }
 
 .button-one {
-  display: block; 
+  display: block;
   min-width: 169px;
 
   background-color: var(--iris-color);
@@ -206,14 +202,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
- 
 }
 
 .button-one:hover,
 .button-one:focus {
   background-color: var(--ocean-color);
 }
-
 
 /* 
 .studio-item {
@@ -232,7 +226,6 @@ body {
   color: var(--navy-blue-color);
   margin-bottom: 8px;
 }
-
 
 .team-text {
   text-align: center;
@@ -259,7 +252,6 @@ body {
   display: flex;
   gap: 24px;
 }
-
 
 .portfolio-sc-list {
   display: flex;
@@ -288,7 +280,7 @@ body {
 }
 
 .team-item {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 /* Footer */
@@ -305,8 +297,6 @@ body {
   color: var(--cloud-color);
   max-width: 264px;
 }
-
-
 
 /* Portfolio */
 
