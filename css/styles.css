@@ -143,6 +143,7 @@ nav .pages:not(:last-child) {
 }
 
 address {
+  display: flex;
   font-style: normal;
   margin-left: auto;
 }
