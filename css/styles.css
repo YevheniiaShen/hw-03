@@ -157,6 +157,7 @@ nav .pages:not(:last-child) {
 .contact-ul {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .contact-list:hover,
