@@ -25,6 +25,7 @@ ul {
 
 /* =====container */
 .container {
+  display: flex;
   margin: auto;
   padding: 0 15px;
   width: 1158px;
