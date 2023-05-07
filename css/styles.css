@@ -219,9 +219,9 @@ body {
   gap: 24px;
 }
 
-.studio-list {
+/* .studio-list {
   width: calc((100% - 72px) / 4);
-}
+} */
 .title-list {
   font-weight: 500;
   font-size: 20px;
